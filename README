@@ -1,7 +1,7 @@
-bitcoin-seeder
+komodo-seeder
 ==============
 
-Bitcoin-seeder is a crawler for the Bitcoin network, which exposes a list
+Komodo-seeder is a crawler for the Komodo network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
@@ -40,6 +40,8 @@ e-mail address (with the @ part replaced by .) using -m.
 
 COMPILING
 ---------
+Before compiling the komodo-seeder please add an existent and trusted dns-seed
+to the array `string mainnet_seeds[]` in [main.cpp](https://github.com/ca333/komodo-seeder/blob/master/main.cpp#L392).
 Compiling will require boost and ssl.  On debian systems, these are provided
 by `libboost-dev` and `libssl-dev` respectively.
 
