@@ -389,7 +389,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"seed.komodoblog.com", "5.9.102.210”, “63.141.241.74”, “142.54.164.114”, “104.236.244.215”, “142.54.162.50”, “69.30.201.26"};
+static const string mainnet_seeds[7] = {"seed.komodoblog.com", "5.9.102.210”, “63.141.241.74”, “142.54.164.114”, “104.236.244.215”, “142.54.162.50”, “69.30.201.26"};
 static const string testnet_seeds[] = {};
 static const string *seeds = mainnet_seeds;
 
